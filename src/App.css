@@ -5,6 +5,7 @@
   --blue: #3180a0;
   --white: #ffffff;
 }
+
 .App {
   text-align: center;
 }
@@ -23,6 +24,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,4 +65,14 @@
 .react-icons {
   vertical-align: middle;
   size: 3em;
+}
+
+.contact-form {
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  margin-top: 30px;
 }

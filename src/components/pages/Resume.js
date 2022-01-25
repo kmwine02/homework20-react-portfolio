@@ -2,7 +2,14 @@ function Resume() {
   return (
     <div className="main-body">
       <h3>Resume</h3>
-      <div>Download my resume</div>
+      <div>
+        <a
+          href="https://drive.google.com/file/d/107bX73_8cca_2rqOq9BOYAaLdJcS-uFX/view?usp=sharing"
+          target="_blank"
+        >
+          View my resume
+        </a>
+      </div>
       <div>
         <h4>Front-end Proficiencies</h4>
         <ul>
