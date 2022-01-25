@@ -1,3 +1,10 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --orange: #e59557;
+  --green: #4cb6a0;
+  --blue: #3180a0;
+  --white: #ffffff;
+}
 .App {
   text-align: center;
 }
@@ -42,21 +49,18 @@
   color: white;
 }
 
-.linkedin-logo {
-  background-image: url(./images/LI-In-Bug.png);
-  display: inline-block;
-  height: 50px;
-  width: 147px;
-}
-
-.github-logo {
-  background-color: transparent;
-  background-image: url(./images/GitHub-Mark-Light-64px.png);
-  display: inline-block;
-  height: 50px;
-  width: 147px;
-}
-
 .footer {
   background-color: darkblue;
+  margin: 0 auto;
+  display: flex;
+  height: 10vh;
+}
+
+.footer-links {
+  justify-content: center;
+}
+
+.react-icons {
+  vertical-align: middle;
+  size: 3em;
 }
