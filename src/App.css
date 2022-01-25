@@ -59,7 +59,10 @@
 
 .footer {
   background-color: var(--blue);
-  margin: 0 auto;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100vw;
   display: flex;
   height: 15vh;
   justify-content: center;
