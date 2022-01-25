@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 function Contact() {
   return (
-    <div>
+    <div className="main-body">
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>

@@ -9,8 +9,8 @@ function Header() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    if (currentPage === "About") {
-      return <About />;
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
@@ -18,7 +18,7 @@ function Header() {
     if (currentPage === "Contact") {
       return <Contact />;
     }
-    return <Resume />;
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

@@ -1,5 +1,9 @@
 function Resume() {
-  return <div>resume</div>;
+  return (
+    <div className="main-body">
+      <h3>Resume</h3>
+    </div>
+  );
 }
 
 export default Resume;
