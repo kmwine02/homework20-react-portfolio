@@ -8,7 +8,7 @@ function Header({ currentPage, handlePageChange }) {
       <Navbar bg="light">
         <Container>
           <Navbar.Brand
-            style={{ color: "white" }}
+            style={{ color: "white", fontSize: 26 }}
             href="#about"
             onClick={() => handlePageChange("About")}
           >
@@ -16,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link
-              style={{ color: "white" }}
+              style={{ color: "white", fontSize: 20 }}
               href="#about"
               onClick={() => handlePageChange("About")}
               className={
@@ -26,7 +26,7 @@ function Header({ currentPage, handlePageChange }) {
               About Me
             </Nav.Link>
             <Nav.Link
-              style={{ color: "white" }}
+              style={{ color: "white", fontSize: 20 }}
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
@@ -36,7 +36,7 @@ function Header({ currentPage, handlePageChange }) {
               Portfolio
             </Nav.Link>
             <Nav.Link
-              style={{ color: "white" }}
+              style={{ color: "white", fontSize: 20 }}
               href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={
@@ -46,7 +46,7 @@ function Header({ currentPage, handlePageChange }) {
               Contact
             </Nav.Link>
             <Nav.Link
-              style={{ color: "white" }}
+              style={{ color: "white", fontSize: 20 }}
               href="#resume"
               onClick={() => handlePageChange("Resume")}
               className={

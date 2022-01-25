@@ -1,29 +1,29 @@
 export const projects = [
   {
-    name: "Project 3",
+    name: "Rudolph's Ratings",
     link: "https://kmwine02-project03.herokuapp.com/",
-    description: "Christmas Movie Search",
+    description: "Christmas Movie Search and Rating App",
     image: require("../images/christmas-movie.png"),
     github: "https://github.com/kmwine02/project03",
   },
   {
     name: "Fitness Tracker",
     link: "https://kmwine02-homework18-workout-tr.herokuapp.com/",
-    description: "Fitness tracker for exercise",
+    description: "Track your cardio/resistance exercises",
     image: require("../images/fitness-tracker.png"),
     github: "https://github.com/kmwine02/homework18-fitness-tracker",
   },
   {
     name: "Address Book",
     link: "https://kmwine02-project2.herokuapp.com/",
-    description: "Address book",
+    description: "Keep details on your favorite people",
     image: require("../images/address-book.png"),
     github: "https://github.com/kmwine02/project02",
   },
   {
     name: "Team Profile Generator",
     link: "",
-    description: "Generates a team profile",
+    description: "Generate a profile for your team dynamically",
     image: require("../images/team-profile-generator.png"),
     github: "https://github.com/kmwine02/homework10-team-profile-generator",
   },
@@ -37,7 +37,7 @@ export const projects = [
   {
     name: "Note Taker",
     link: "https://kmwine02-homework11-note-taker.herokuapp.com/",
-    description: "App that takes notes",
+    description: "Taking notes made simple",
     image: require("../images/note-taker-homepage.png"),
     github: "https://github.com/kmwine02/homework11-note-taker",
   },
