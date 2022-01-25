@@ -24,13 +24,13 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <div className="header">
       <NavSection
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
       {renderPage()}
-    </>
+    </div>
   );
 }
 

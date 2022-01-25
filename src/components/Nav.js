@@ -7,11 +7,16 @@ function NavSection({ currentPage, handlePageChange }) {
     <>
       <Navbar bg="light">
         <Container>
-          <Navbar.Brand href="#about" onClick={() => handlePageChange("About")}>
-            Brand link
+          <Navbar.Brand
+            style={{ color: "white" }}
+            href="#about"
+            onClick={() => handlePageChange("About")}
+          >
+            Katie Wine
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link
+              style={{ color: "white" }}
               href="#about"
               onClick={() => handlePageChange("About")}
               className={
@@ -21,6 +26,7 @@ function NavSection({ currentPage, handlePageChange }) {
               About Me
             </Nav.Link>
             <Nav.Link
+              style={{ color: "white" }}
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
@@ -30,6 +36,7 @@ function NavSection({ currentPage, handlePageChange }) {
               Portfolio
             </Nav.Link>
             <Nav.Link
+              style={{ color: "white" }}
               href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={
@@ -39,6 +46,7 @@ function NavSection({ currentPage, handlePageChange }) {
               Contact
             </Nav.Link>
             <Nav.Link
+              style={{ color: "white" }}
               href="#resume"
               onClick={() => handlePageChange("Resume")}
               className={

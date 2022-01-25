@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-image: url(./images/universe.jpg);
+  color: white;
+}
+
+.linkedin-logo {
+  background-image: url(./images/LI-In-Bug.png);
+  display: inline-block;
+  height: 50px;
+  width: 147px;
+}
+
+.github-logo {
+  background-color: transparent;
+  background-image: url(./images/GitHub-Mark-Light-64px.png);
+  display: inline-block;
+  height: 50px;
+  width: 147px;
+}
+
+.footer {
+  background-color: darkblue;
+}
