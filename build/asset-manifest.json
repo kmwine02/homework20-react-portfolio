@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homework20-react-portfolio/static/css/main.8b1aa894.css",
+    "main.css": "/homework20-react-portfolio/static/css/main.31f2d791.css",
     "main.js": "/homework20-react-portfolio/static/js/main.66c0072c.js",
     "static/media/christmas-movie.png": "/homework20-react-portfolio/static/media/christmas-movie.42e611a4cb52c46e8bae.png",
     "static/media/employee-tracker.png": "/homework20-react-portfolio/static/media/employee-tracker.37a16941a84e5ec6793f.png",
@@ -10,11 +10,11 @@
     "static/media/note-taker-homepage.png": "/homework20-react-portfolio/static/media/note-taker-homepage.27ad9b4da6edeca43a8c.png",
     "static/media/team-profile-generator.png": "/homework20-react-portfolio/static/media/team-profile-generator.399fd7d8d2f2bf956293.png",
     "index.html": "/homework20-react-portfolio/index.html",
-    "main.8b1aa894.css.map": "/homework20-react-portfolio/static/css/main.8b1aa894.css.map",
+    "main.31f2d791.css.map": "/homework20-react-portfolio/static/css/main.31f2d791.css.map",
     "main.66c0072c.js.map": "/homework20-react-portfolio/static/js/main.66c0072c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1aa894.css",
+    "static/css/main.31f2d791.css",
     "static/js/main.66c0072c.js"
   ]
 }
